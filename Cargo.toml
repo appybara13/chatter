@@ -1,0 +1,16 @@
+[package]
+name = "chatter"
+version = "0.1.0"
+edition = "2021"
+authors = ["appybara13"]
+repository = "https://github.com/appybara13/chatter"
+homepage = "https://github.com/appybara13/chatter"
+license = "MIT"
+description = "Translate a human-readable dialogue script into Rust"
+readme = "README.md"
+keywords = ["gamedev", "narrative", "dialogue", "chatter"]
+categories = ["game-development", "text-processing", "parser-implementations"]
+include = ["Cargo.toml", "README.md", "LICENSE", "src/*"]
+
+[dependencies]
+chatter-macros = "0.1"
